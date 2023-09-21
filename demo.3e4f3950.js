@@ -5733,7 +5733,7 @@
             }
 
         ;
-        o.a.render(i.a.createElement(i.a.StrictMode, null, i.a.createElement(ge, { className: "fade", cmd: be, config: { prompt: "➜  ~ ", version: "1.0.0", initialDirectory: "我将要到来", bootCmd: "intro" } })), document.querySelector("#demo"));
+        o.a.render(i.a.createElement(i.a.StrictMode, null, i.a.createElement(ge, { className: "fade", cmd: be, config: { prompt: "➜  ~ ", version: "1.0.0", initialDirectory: "About me - 八度易飞", bootCmd: "intro" } })), document.querySelector("#demo"));
         var we = document.querySelectorAll(".fade");
         window.addEventListener("load", (function() { we.forEach((function(e) { return e.classList.add("in") })) })), window.addEventListener("beforeunload", (function() { we.forEach((function(e) { return e.classList.remove("in") })) }))
     }],
